@@ -1,0 +1,90 @@
+<html>
+<head>
+<title>13g</title>
+<style>
+	*{
+	font-family:Arial;
+	}
+	p{
+	margin-top:0px;
+	margin-bottom:0px;
+	}
+	.account-name{
+		font-weight:bold;
+		margin-top:13px;
+		margin-left:10px;
+	}
+	.tag,.link{
+		color:rgb(120,120,120);
+		font-weight:400;
+	}
+	.container{
+		display:flex;
+		flex-direction:row;
+	}
+	.message{
+		font-size:16px;
+		margin-left:11px;
+		margin-top:10px;
+	}
+	.column1{
+		display:flex;
+		flex-direction:column;
+		margin:10px 15px 1px 15px;
+	}
+	.column2{
+		display:flex;
+		flex-direction:column;
+	}
+	img{
+	width:50px;
+	height:50px;
+	border-radius:25px;
+	object-fit:cover;}
+	
+	.inner-container{
+	display:flex;
+	margin-top:20px;
+	margin-left:12px;
+	flex-direction:row;
+	width:350px;
+	height:110px;
+	border-style:solid;
+	border-width:1px;
+	border-color:rgb(96,96,96,0.19);
+	border-radius:20px;
+	}
+	.shape{
+		width: 100px;
+		background-color:rgb(96,96,96,0.19);
+		border-top-left-radius:20px;
+		border-bottom-left-radius:20px;
+	}
+	.inner-inner-box{
+		display:flex;
+		flex-direction:column;
+	}
+	.link{
+		margin-left:11px;
+	}
+ </style>
+</head>
+<body>
+<div class="container">
+	<div  class="column1">
+		<img src="cat.jpg">
+	</div>
+	<div class="column2">
+		<div class="account-info"><p class="account-name">supersimple.dev<span class="tag"> @SuperSimpleDev</span></p></div>
+		<div class="message"><p class="text">What is backend web development? A complete<br>overview. New video is up!</p></div>
+		<div class="inner-container">
+			<div class="shape"></div>
+			<div class="inner-inner-box">
+			`	<div class="link">youtube.com</div>
+				<div class="message">Backend web development - a<br>complete overview (2021)</div>
+			</div>
+		</div>
+	</div>
+</div>
+</body>
+</html>
