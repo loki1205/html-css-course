@@ -1,0 +1,90 @@
+<html>
+<head>
+<title>14e</title>
+<style>
+.container{
+	background-color:black;
+	padding-left:10%;
+	padding-right:10%;
+	width:80%;
+	border-color:gray;
+	border-width:1px;
+	border-style:solid;
+	height:50px;
+	display:flex;
+	flex-direction:row;
+	align-items:center;
+	justify-content:space-between;
+	position:fixed;
+	top:0px;
+	left:0px;
+	right:0px;
+	bottom:0px;
+	
+	
+}
+body{
+	height:3000px;
+	background-image:url(cat.jpg);
+}
+.profile{
+	width:40px;
+	height:40px;
+	object-fit:cover;
+	border-radius:40px;
+	padding-top:5px;
+	padding-left:5px;
+}
+.name{
+	font-weight:bold;
+	margin-left:10px;
+	
+}
+.inner1{
+	display:flex;
+	flex-direction:row;
+}
+*{
+	font-family:Arial;
+	color:white;
+}
+.button1{
+	padding-top:10px;
+	padding-left:20px;
+	padding-bottom:10px;
+	padding-right:20px;
+	background-color:#458eff;
+	border:none;
+	color:white;
+	margin-left:7px;
+	border-radius:5px;
+	font-weight:bold;
+}
+.button2{
+	padding-top:10px;
+	padding-left:20px;
+	padding-bottom:10px;
+	padding-right:20px;
+	background-color:rgb(0,0,0,0.4);
+	border:none;
+	color:white;
+	margin-left:7px;
+	border-radius:5px;
+	font-weight:bold;
+	margin-right:10px;
+}
+</style>
+</head>
+<body>
+<div class="container">
+	<div class="inner1">
+		<img class="profile" src="cat.jpg">
+		<p class="name">Oliver Cat</p>
+	</div>
+	<div class="inner2">
+		<button class="button1">Add Friend</button>
+		<button class="button2">Message</button>
+	</div>
+</div>
+</body>
+</html>
